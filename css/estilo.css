@@ -1,0 +1,237 @@
+/*zerar o navegador(magens e espaçamento)*/
+
+*{
+    margin:0px; 
+    padding: 0px;
+}
+/* seletor {propriedade:valor;}*/
+body {
+    text-align: center;
+}
+/* configurando a pagina principal*/
+#principal{
+    width: 970px; 
+    margin: 0px auto;
+}
+
+/* configurando o cabeçalho*/
+#cabecalho{
+    height: 210px;
+}
+/* configurando o corpo*/
+#corpo{
+    width: 970px; 
+    height: 250px;
+}
+#centro{
+    width: 600px;
+    height: 200px;
+    float: left;
+    margin-top: 15px;
+    padding: 10px;
+}
+#esquerdo{
+    width: 155px;
+    height: 200px;
+    float: left;
+}
+
+#direito{
+    margin-left: 10px;
+    width: 190px;
+    height: 300px;
+    float: left;
+}
+
+/*imagem do banner superior*/
+img {
+    width: 970px;
+    height: 160px;
+}
+
+/*menu superior*/
+
+#menu-superior{
+    height: 52px;
+    color: #666;
+    margin-bottom: 2px;
+}
+#menu-superior ul{
+    height: 35px;
+    padding: 14px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #999;
+}
+#menu-superior ul li{
+    display: inline; 
+    margin: 0 10px 0 20px;
+}
+#menu-superior ul li a{
+    text-decoration: none;
+    color: #666;
+}
+#menu-superior ul li a:hover{
+    color: coral;
+}
+
+/*menu lateral - esquerdo*/
+
+#esquerdo{
+    width: 150px;
+    float: left;
+    margin: 20px 0px 5px 0;
+    text-indent: 10px;
+}
+#esquerdo ul{
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 10px;
+    
+}
+
+#esquerdo ul li a{
+    margin-top: 2px;
+    font: 11px verdana;
+    text-decoration: none;
+    color: #555;
+    padding: 4px 0;
+    display: block;
+    border-bottom: dotted 1px #999;
+}
+
+#esquerdo ul li a:hover{
+    color: #006699;
+    background-color: #ef5f5f;
+}
+
+/*===================noticias====================*/
+.ladDireito{
+    width:160px; 
+    height: 70px; 
+    margin-top: 20px;
+}
+#noticias{
+    background-color: #daebef;
+    border: solid #ccc;
+   /* margin-top: 20px;*/
+}
+#iten-noticias{
+    font-family: arial;
+    font-size: 12px;
+    color: #006699;
+    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
+    width: 190px;
+}
+
+#iten-noticias span{
+    font-family: arial;
+    font-weight: bold;
+}
+#iten-noticias a{
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#iten-noticias a:hover{
+    text-decoration: underline;
+}
+.descer{
+    margin-top: 10px;
+}
+
+
+/*===================fim noticias====================*/
+
+
+/*configurando o rodape*/
+
+.clear{
+    clear: both;
+}
+/*.baixarodape{bottom: 0;position: fixed;width: 970px;text-align: center;}*/
+
+/*=========================post==============*/
+
+#container-post{
+    width: 615px;
+    height: 400px;
+}
+
+#container-posts-recentes{
+    width: 565px;
+    float: left;
+    height: 365px;
+    margin-top: 10px;
+}
+
+#ultimo-post-lancado{
+    float: left;
+    margin: 5px;
+    height: 323px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#lista-posts-recentes{
+    float: left;
+    width: 230px;
+    padding: 5px 0 0 1px;
+   /* margin-top: 0px; */
+    background: white;
+}
+
+#caixa-post-recente h3{
+    font-size: 8px; 
+    margin-top: -42px;
+    padding: 0px 5px 5px 75px;
+}
+.texto{
+    font-size: 8px;
+    margin-left: 75px;
+}
+
+#caixa-post-recente{
+    width: 220px;
+    height: 52px;
+    float: left;
+    font-family: arial;
+    text-align: left;
+    border: 1px solid #ccc;
+    font-size: 11px; 
+}
+.post-recente{
+    width: 70px;
+    height: 49px;
+}
+
+.imagem{
+    width: 296px;
+    height: 179px;
+    float: left;
+}
+
+#ultimo-post-lancado h1{
+    color: #666;
+    font-size: 3px;
+    padding: 5px 0 0 0 ;
+}
+#ultimo-post-lancado a{
+    color: #666;
+    text-decoration: none;
+}
+#ultimo-post-lancado p{
+    color: #666;
+    font-size: 11px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
